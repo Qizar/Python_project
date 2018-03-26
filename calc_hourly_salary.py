@@ -8,5 +8,5 @@ while True:
         print("Per day salary: ",c)
         print("Per hour salary is: ",d,'\n')
     except:
-        print("You can't enter anything, other than numbers.\n")
+        print("You can't enter any other character, other than numbers.\n")
         
