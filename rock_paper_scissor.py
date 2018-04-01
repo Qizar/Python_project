@@ -52,9 +52,13 @@ while start < 3:
 
 if human_score > computer_score:
     print("\nOut of 3 rounds",name,'wins',human_score,'round(s)')
+    print("Out of 3 rounds computer wins",computer_score,'round(s)')
     print("The winner of the game is",name)
 elif human_score < computer_score:
     print("\nOut of 3 rounds computer wins",computer_score,'round(s)')
+    print("Out of 3 rounds",name,'wins',human_score,'round(s)')
     print("The winner of the game is computer")
 elif human_score == computer_score:
     print("\nNo one has won this game, Hahahahaha")
+    print("\nOut of 3 rounds",name,'wins',human_score,'round(s)')
+    print("Out of 3 rounds computer wins",computer_score,'round(s)')
